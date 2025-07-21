@@ -1,10 +1,13 @@
 {
-  "version": "0.0.3",
-  "lastUpdated": "2025-07-21T10:30:00Z",
+  "version": "0.0.4",
+  "lastUpdated": "2025-07-21T11:30:00Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
-      "updates": []
+      "updates": [{
+					"file": "cards/210725-001.json",
+					"date": "2025-07-21T19:00:00Z"
+				}]
     },
     "collections": {
       "baseFile": "collections/base.json",
@@ -17,7 +20,10 @@
     },
     "collectionCards": {
       "baseFile": "collection-cards/base.json",
-      "updates": []
+      "updates": [{
+					"file": "collections-cards/210725-001.json",
+					"date": "2025-07-21T19:00:00Z"
+				}]
     }
   }
 }
