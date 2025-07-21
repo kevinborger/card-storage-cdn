@@ -1,0 +1,9 @@
+[
+  {
+    "id": "sdy",
+    "name": "Deck de démarrage Yugi",
+    "nameEn": "Start Deck Yugi",
+    "type": "starter",
+    "codePrefix": "SDY-"
+  }
+]
