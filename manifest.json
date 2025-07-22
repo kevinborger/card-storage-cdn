@@ -21,7 +21,7 @@
     "collectionCards": {
       "baseFile": "collection-cards/base.json",
       "updates": [{
-					"file": "collections-cards/210725-001.json",
+					"file": "collection-cards/210725-001.json",
 					"date": "2025-07-21T19:00:00Z"
 				}]
     }
