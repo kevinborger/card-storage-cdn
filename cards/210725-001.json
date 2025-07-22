@@ -3,16 +3,16 @@
     "id": "46986414",
     "name": "Magicien sombre",
     "nameEn": "Dark Magician",
-    "attribute": "Ténèbres",
+    "attribute": "DARK",
     "atk": 2500,
     "def": 2100,
     "level": 7,
-    "monsterType": "Magicien",
+    "monsterType": "Spellcaster",
     "type": "Normal",
     "isEffect": false,
     "isPendulum": false,
     "isLink": false,
     "description": "Mage suprême en termes d'attaque et de défense.",
-    "archetype": "Magicien sombre"
+    "archetype": "Dark Magician"
   }
 ]
