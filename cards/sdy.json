@@ -76,22 +76,6 @@
     "archetype": "Archfiend"
   },
   {
-    "id": "36996508",
-    "name": "Magicien Sombre",
-    "nameEn": "Dark Magician",
-    "description": "Mage suprême en termes d'attaque et de défense.",
-    "attribute": "DARK",
-    "atk": 2500,
-    "def": 2100,
-    "level": 7,
-    "monsterType": "Spellcaster",
-    "type": "Normal",
-    "isEffect": false,
-    "isPendulum": false,
-    "isLink": false,
-    "archetype": "Dark Magician"
-  },
-  {
     "id": "6368038",
     "name": "Gaïa le Chevalier Implacable",
     "nameEn": "Gaia The Fierce Knight",
