@@ -1,6 +1,6 @@
 {
-  "version": "0.0.6",
-  "lastUpdated": "2025-07-23T11:45:00Z",
+  "version": "0.0.7",
+  "lastUpdated": "2025-07-24T11:45:00Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -11,6 +11,10 @@
 				{
 					"file": "cards/sdy.json",
 					"date": "2025-07-23T11:00:00Z"
+				},
+				{
+					"file": "cards/bltr.json",
+					"date": "2025-07-24T11:00:00Z"
 				}]
     },
     "collections": {
@@ -19,6 +23,9 @@
 				{
 					"file": "collections/210725-001.json",
 					"date": "2025-07-21T19:00:00Z"
+				},{
+					"file": "collections/bltr.json",
+					"date": "2025-07-24T11:00:00Z"
 				}
 			]
     },
@@ -31,6 +38,10 @@
 				{
 					"file": "collection-cards/sdy.json",
 					"date": "2025-07-23T11:00:00Z"
+				},
+				{
+					"file": "collection-cards/bltr.json",
+					"date": "2025-07-24T11:00:00Z"
 				}]
     },
     "archetypes": {
@@ -38,6 +49,9 @@
       "updates": [{
 					"file": "archetypes/sdy.json",
 					"date": "2025-07-23T11:00:00Z"
+				},{
+					"file": "archetypes/bltr.json",
+					"date": "2025-07-24T11:00:00Z"
 				}]
     }
   }

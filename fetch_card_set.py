@@ -4,35 +4,57 @@ import sys
 import os
 import requests
 import re
+import time
 
 def fetch_card_set(card_set, name, collection_id):
     """
     Récupère les informations des cartes d'un set spécifique depuis l'API YGOPRODeck
     et crée deux fichiers JSON : un pour les cartes et un pour la collection
     """
-    # Construire l'URL de l'API
-    url = f"https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset={card_set}&language=fr"
+    # Construire l'URL de l'API avec langue française
+    url_fr = f"https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset={card_set}&language=fr"
     
     try:
-        # Récupérer les données de l'API
-        print(f"Récupération des données pour le set: {card_set}")
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-        
-        # Convertir la réponse en JSON
-        api_data = response.json()
+        # Premier appel avec langue française
+        print(f"Récupération des données pour le set: {card_set} (FR)")
+        response_fr = requests.get(url_fr, timeout=30)
+        response_fr.raise_for_status()
+        api_data_fr = response_fr.json()
         
         # Vérifier si des cartes ont été trouvées
-        if 'data' not in api_data or not api_data['data']:
+        if 'data' not in api_data_fr or not api_data_fr['data']:
             print(f"Aucune carte trouvée pour le set: {card_set}")
             return False
+        
+        # Attendre 5 secondes
+        print("Attente de 5 secondes avant le second appel...")
+        time.sleep(5)
+        
+        # Second appel sans langue pour récupérer les cartes manquantes
+        url_en = f"https://db.ygoprodeck.com/api/v7/cardinfo.php?cardset={card_set}"
+        print(f"Récupération des données pour le set: {card_set} (EN)")
+        response_en = requests.get(url_en, timeout=30)
+        response_en.raise_for_status()
+        api_data_en = response_en.json()
+        
+        # Fusionner les données - ajouter les cartes manquantes
+        cards_fr_ids = {str(card.get('id', '')) for card in api_data_fr['data']}
+        
+        if 'data' in api_data_en and api_data_en['data']:
+            for card_en in api_data_en['data']:
+                card_id = str(card_en.get('id', ''))
+                if card_id not in cards_fr_ids:
+                    print(f"Ajout de la carte manquante: {card_en.get('name', '')} (ID: {card_id})")
+                    api_data_fr['data'].append(card_en)
         
         # Transformer les données au format souhaité
         formatted_cards = []
         collection_cards = []
         
-        for card in api_data['data']:
+        for card in api_data_fr['data']:
             card_type = card.get('type', '')
+            typeline = card.get('typeline', '')
+            is_effect = 'Effect' in typeline
             is_spell = 'Spell' in card_type
             is_trap = 'Trap' in card_type
             
@@ -40,21 +62,21 @@ def fetch_card_set(card_set, name, collection_id):
             formatted_card = {
                 "id": str(card.get('id', '')),
                 "name": card.get('name', ''),
-                "nameEn": card.get('name_en', card.get('name', '')),
+                "nameEn": card.get('name_en', card.get('name', '')),  # Fallback sur name si name_en n'existe pas
                 "description": card.get('desc', '')
             }
+
+            formatted_card["isEffect"] = is_effect
             
             # Gérer les cartes magie et piège
             if is_spell:
                 formatted_card["attribute"] = "SPELL"
                 formatted_card["type"] = "Magic"
-                formatted_card["isEffect"] = False
                 formatted_card["isPendulum"] = False
                 formatted_card["isLink"] = False
             elif is_trap:
                 formatted_card["attribute"] = "TRAP"
                 formatted_card["type"] = "Trap"
-                formatted_card["isEffect"] = False
                 formatted_card["isPendulum"] = False
                 formatted_card["isLink"] = False
             else:
@@ -66,14 +88,22 @@ def fetch_card_set(card_set, name, collection_id):
                 formatted_card["monsterType"] = card.get('race', '')
                 
                 # Simplifier le type de monstre
-                if 'Normal Monster' in card_type:
-                    formatted_card["type"] = "Normal"
-                elif 'Effect Monster' in card_type or 'Flip Effect Monster' in card_type:
+                # Vérifier d'abord les types spéciaux dans typeline
+                if 'Synchro' in typeline:
+                    formatted_card["type"] = "Synchro"
+                elif 'Fusion' in typeline:
+                    formatted_card["type"] = "Fusion"
+                elif 'Xyz' in typeline:
+                    formatted_card["type"] = "Xyz"
+                elif 'Link' in typeline:
+                    formatted_card["type"] = "Link"
+                # Sinon, utiliser is_effect pour déterminer le type
+                elif is_effect:
                     formatted_card["type"] = "Effect"
                 else:
-                    formatted_card["type"] = card.get('type', '')
+                    formatted_card["type"] = "Normal"
                 
-                formatted_card["isEffect"] = 'Effect' in card.get('type', '')
+                formatted_card["isEffect"] = is_effect
                 formatted_card["isPendulum"] = 'Pendulum' in card.get('type', '')
                 formatted_card["isLink"] = 'Link' in card.get('type', '')
             
