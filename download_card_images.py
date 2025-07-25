@@ -4,18 +4,20 @@ import sys
 import os
 import requests
 from PIL import Image
+from PIL.ExifTags import TAGS
 from io import BytesIO
 
 def download_and_resize_image(card_id, output_dir):
     """
-    Télécharge une image de carte depuis ygoprodeck et la redimensionne
+    Télécharge une image de carte depuis ygoprodeck, la redimensionne,
+    supprime les métadonnées et la convertit en WebP avec compression
     """
     # Supprimer les zéros en début d'ID pour l'URL uniquement
     clean_id_for_url = card_id.lstrip('0') or '0'
     url = f"https://images.ygoprodeck.com/images/cards/{clean_id_for_url}.jpg"
     
-    # Garder l'ID complet pour le nom de fichier
-    output_path = os.path.join(output_dir, f"{card_id}.jpg")
+    # Garder l'ID complet pour le nom de fichier, mais en WebP
+    output_path = os.path.join(output_dir, f"{card_id}.webp")
     
     try:
         # Télécharger l'image
@@ -26,12 +28,37 @@ def download_and_resize_image(card_id, output_dir):
         # Ouvrir l'image avec PIL
         image = Image.open(BytesIO(response.content))
         
-        # Redimensionner à 60x84
-        resized_image = image.resize((60, 84), Image.Resampling.LANCZOS)
+        # Supprimer les métadonnées EXIF
+        if hasattr(image, '_getexif'):
+            # Créer une nouvelle image sans métadonnées
+            data = list(image.getdata())
+            image_without_exif = Image.new(image.mode, image.size)
+            image_without_exif.putdata(data)
+            image = image_without_exif
         
-        # Sauvegarder l'image redimensionnée
-        resized_image.save(output_path, "JPEG", quality=95)
-        print(f"Image sauvegardée: {output_path}")
+        # Redimensionner à 60x84
+        resized_image = image.resize((210, 306), Image.Resampling.LANCZOS)
+        
+        # Convertir en RGB si nécessaire (WebP ne supporte pas tous les modes)
+        if resized_image.mode in ('RGBA', 'LA', 'P'):
+            # Créer un fond blanc pour les images avec transparence
+            background = Image.new('RGB', resized_image.size, (255, 255, 255))
+            if resized_image.mode == 'P':
+                resized_image = resized_image.convert('RGBA')
+            background.paste(resized_image, mask=resized_image.split()[-1] if resized_image.mode == 'RGBA' else None)
+            resized_image = background
+        elif resized_image.mode != 'RGB':
+            resized_image = resized_image.convert('RGB')
+        
+        # Sauvegarder en WebP avec compression
+        resized_image.save(
+            output_path, 
+            "WebP", 
+            quality=80,  # Compression avec qualité 80%
+            method=6,    # Méthode de compression la plus efficace
+            optimize=True  # Optimisation supplémentaire
+        )
+        print(f"Image sauvegardée en WebP: {output_path}")
         
         return True
         
@@ -103,6 +130,7 @@ def main():
             success_count += 1
     
     print(f"\nTerminé! {success_count}/{len(card_ids)} images téléchargées avec succès.")
+    print("Les images sont maintenant en format WebP compressé sans métadonnées.")
 
 if __name__ == "__main__":
     main()
