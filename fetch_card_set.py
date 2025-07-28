@@ -27,6 +27,29 @@ def load_existing_archetypes():
     
     return archetypes
 
+def get_max_archetype_id():
+    """Récupère l'ID maximum utilisé dans tous les fichiers d'archétypes"""
+    max_id = 0
+    archetypes_dir = "archetypes"
+    
+    if os.path.exists(archetypes_dir):
+        for filename in os.listdir(archetypes_dir):
+            if filename.endswith('.json'):
+                filepath = os.path.join(archetypes_dir, filename)
+                try:
+                    with open(filepath, 'r', encoding='utf-8') as file:
+                        archetype_data = json.load(file)
+                        for archetype in archetype_data:
+                            try:
+                                archetype_id = int(archetype.get('id', 0))
+                                max_id = max(max_id, archetype_id)
+                            except (ValueError, TypeError):
+                                pass
+                except Exception as e:
+                    print(f"Erreur lors du chargement de {filepath}: {e}")
+    
+    return max_id
+
 def save_archetype_to_file(archetype_name_en, filename="base.json"):
     """Ajoute un nouvel archétype au fichier spécifié"""
     filepath = os.path.join("archetypes", filename)
@@ -45,16 +68,9 @@ def save_archetype_to_file(archetype_name_en, filename="base.json"):
         if archetype.get('nameEn') == archetype_name_en:
             return  # L'archétype existe déjà
     
-    # Générer un nouvel ID
-    max_id = 0
-    for archetype in archetypes:
-        try:
-            archetype_id = int(archetype.get('id', 0))
-            max_id = max(max_id, archetype_id)
-        except ValueError:
-            pass
-    
-    new_id = str(max_id + 1)
+    # Récupérer l'ID maximum global de tous les fichiers d'archétypes
+    max_global_id = get_max_archetype_id()
+    new_id = str(max_global_id + 1)
     
     # Ajouter le nouvel archétype
     new_archetype = {

@@ -1,72 +1,98 @@
 {
-  "version": "0.0.8",
-  "lastUpdated": "2025-07-28T10:45:00Z",
+  "version": "0.0.9",
+  "lastUpdated": "2025-07-28T09:04:04Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
-      "updates": [{
-					"file": "cards/210725-001.json",
-					"date": "2025-07-21T19:00:00Z"
-				},
-				{
-					"file": "cards/sdy.json",
-					"date": "2025-07-23T11:00:00Z"
-				},
-				{
-					"file": "cards/bltr.json",
-					"date": "2025-07-24T11:00:00Z"
-				},
-				{
-					"file": "cards/mdr.json",
-					"date": "2025-07-28T10:00:00Z"
-				}]
+      "updates": [
+        {
+          "file": "cards/210725-001.json",
+          "date": "2025-07-21T19:00:00Z"
+        },
+        {
+          "file": "cards/sdy.json",
+          "date": "2025-07-23T11:00:00Z"
+        },
+        {
+          "file": "cards/bltr.json",
+          "date": "2025-07-24T11:00:00Z"
+        },
+        {
+          "file": "cards/mdr.json",
+          "date": "2025-07-28T10:00:00Z"
+        },
+        {
+          "file": "cards/mdm.json",
+          "date": "2025-07-28T09:04:04Z"
+        }
+      ]
     },
     "collections": {
       "baseFile": "collections/base.json",
       "updates": [
-				{
-					"file": "collections/210725-001.json",
-					"date": "2025-07-21T19:00:00Z"
-				},{
-					"file": "collections/bltr.json",
-					"date": "2025-07-24T11:00:00Z"
-				},{
-					"file": "collections/mdr.json",
-					"date": "2025-07-28T10:00:00Z"
-				}
-			]
+        {
+          "file": "collections/210725-001.json",
+          "date": "2025-07-21T19:00:00Z"
+        },
+        {
+          "file": "collections/bltr.json",
+          "date": "2025-07-24T11:00:00Z"
+        },
+        {
+          "file": "collections/mdr.json",
+          "date": "2025-07-28T10:00:00Z"
+        },
+        {
+          "file": "collections/mdm.json",
+          "date": "2025-07-28T09:04:04Z"
+        }
+      ]
     },
     "collectionCards": {
       "baseFile": "collection-cards/base.json",
-      "updates": [{
-					"file": "collection-cards/210725-001.json",
-					"date": "2025-07-21T19:00:00Z"
-				},
-				{
-					"file": "collection-cards/sdy.json",
-					"date": "2025-07-23T11:00:00Z"
-				},
-				{
-					"file": "collection-cards/bltr.json",
-					"date": "2025-07-24T11:00:00Z"
-				},
-				{
-					"file": "collection-cards/mdr.json",
-					"date": "2025-07-28T10:00:00Z"
-				}]
+      "updates": [
+        {
+          "file": "collection-cards/210725-001.json",
+          "date": "2025-07-21T19:00:00Z"
+        },
+        {
+          "file": "collection-cards/sdy.json",
+          "date": "2025-07-23T11:00:00Z"
+        },
+        {
+          "file": "collection-cards/bltr.json",
+          "date": "2025-07-24T11:00:00Z"
+        },
+        {
+          "file": "collection-cards/mdr.json",
+          "date": "2025-07-28T10:00:00Z"
+        },
+        {
+          "file": "collection-cards/mdm.json",
+          "date": "2025-07-28T09:04:04Z"
+        }
+      ]
     },
     "archetypes": {
       "baseFile": "archetypes/base.json",
-      "updates": [{
-					"file": "archetypes/sdy.json",
-					"date": "2025-07-23T11:00:00Z"
-				},{
-					"file": "archetypes/bltr.json",
-					"date": "2025-07-24T11:00:00Z"
-				},{
-					"file": "archetypes/mdr.json",
-					"date": "2025-07-28T10:00:00Z"
-				}]
+      "updates": [
+        {
+          "file": "archetypes/sdy.json",
+          "date": "2025-07-23T11:00:00Z"
+        },
+        {
+          "file": "archetypes/bltr.json",
+          "date": "2025-07-24T11:00:00Z"
+        },
+        {
+          "file": "archetypes/mdr.json",
+          "date": "2025-07-28T10:00:00Z"
+        },
+        {
+          "file": "archetypes/mdm.json",
+          "date": "2025-07-28T09:04:04Z"
+        }
+      ]
     }
   }
 }
