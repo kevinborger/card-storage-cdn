@@ -1,12 +1,4 @@
 [
-
-  {
-    "id": "mdm",
-    "name": "Maître des Magies",
-    "nameEn": "Magic Ruler",
-    "type": "booster",
-    "codePrefix": "MDM-F"
-  },
   {
     "id": "ysd",
     "name": "Starter Deck 2016",
