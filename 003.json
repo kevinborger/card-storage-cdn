@@ -1,11 +1,5 @@
 [
-  {
-    "id": "mdr",
-    "name": "Metal Raiders",
-    "nameEn": "Metal Raiders",
-    "type": "booster",
-    "codePrefix": "MRD-F"
-  },
+
   {
     "id": "mdm",
     "name": "Maître des Magies",
