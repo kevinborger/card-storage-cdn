@@ -25,6 +25,17 @@ def download_and_resize_collection_image(card_id, image_url):
         # Ouvrir l'image avec PIL
         image = Image.open(BytesIO(response.content))
         
+        # Convertir en RGB si l'image a un canal alpha (RGBA)
+        if image.mode in ('RGBA', 'LA', 'P'):
+            # Créer un fond blanc pour remplacer la transparence
+            background = Image.new('RGB', image.size, (255, 255, 255))
+            if image.mode == 'P':
+                image = image.convert('RGBA')
+            background.paste(image, mask=image.split()[-1] if image.mode == 'RGBA' else None)
+            image = background
+        elif image.mode != 'RGB':
+            image = image.convert('RGB')
+        
         # Redimensionner à 60x84
         resized_image = image.resize((60, 84), Image.Resampling.LANCZOS)
         
