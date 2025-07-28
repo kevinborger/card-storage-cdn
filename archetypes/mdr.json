@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "name": "Harpie",
+    "nameEn": "Harpie"
+  },
+  {
+    "id": "2",
+    "name": "Fée",
+    "nameEn": "Fairy"
+  },
+  {
+    "id": "3",
+    "name": "Dragon du Tonerre",
+    "nameEn": "Thunder Dragon"
+  },
+  {
+    "id": "4",
+    "name": "Des gardes",
+    "nameEn": "Battleguard"
+  },
+  {
+    "id": "5",
+    "name": "Gardien de la porte",
+    "nameEn": "Gate Guardian"
+  },
+  {
+    "id": "6",
+    "name": "Jinzo",
+    "nameEn": "Jinzo"
+  },
+  {
+    "id": "7",
+    "name": "Solennel",
+    "nameEn": "Solemn"
+  },
+  {
+    "id": "8",
+    "name": "Kuriboh",
+    "nameEn": "Kuriboh"
+  },
+  {
+    "id": "9",
+    "name": "Magicien",
+    "nameEn": "Magician"
+  },
+  {
+    "id": "10",
+    "name": "Masque",
+    "nameEn": "Mask"
+  }
+]
