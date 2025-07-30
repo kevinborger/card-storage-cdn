@@ -1,0 +1,62 @@
+[
+  {
+    "id": "63",
+    "name": "Photon",
+    "nameEn": "Photon"
+  },
+  {
+    "id": "64",
+    "name": "Corrompu",
+    "nameEn": "Malefic"
+  },
+  {
+    "id": "65",
+    "name": "Express",
+    "nameEn": "Train"
+  },
+  {
+    "id": "66",
+    "name": "Gagaga",
+    "nameEn": "Gagaga"
+  },
+  {
+    "id": "67",
+    "name": "Gogogo",
+    "nameEn": "Gogogo"
+  },
+  {
+    "id": "68",
+    "name": "Dododo",
+    "nameEn": "Dododo"
+  },
+  {
+    "id": "69",
+    "name": "Nordique",
+    "nameEn": "Nordic"
+  },
+  {
+    "id": "70",
+    "name": "Ases",
+    "nameEn": "Aesir"
+  },
+  {
+    "id": "71",
+    "name": "Génie",
+    "nameEn": "Djinn"
+  },
+  {
+    "id": "72",
+    "name": "Requin",
+    "nameEn": "Shark"
+  },
+  {
+    "id": "73",
+    "name": "Utopie",
+    "nameEn": "Utopia"
+  },
+  {
+    "id": "74",
+    "name": "Bounzer",
+    "nameEn": "Bounzer"
+  }
+]
