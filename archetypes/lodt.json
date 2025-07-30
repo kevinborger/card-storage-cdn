@@ -1,0 +1,72 @@
+[
+  {
+    "id": "49",
+    "name": "Force Arcane",
+    "nameEn": "Arcana Force"
+  },
+  {
+    "id": "50",
+    "name": "Seigneur Lumière",
+    "nameEn": "Lightsworn"
+  },
+  {
+    "id": "51",
+    "name": "Homme-Batterie",
+    "nameEn": "Batteryman"
+  },
+  {
+    "id": "52",
+    "name": "Neo-Spacien",
+    "nameEn": "Neo-Spacian"
+  },
+  {
+    "id": "53",
+    "name": "Nuageux",
+    "nameEn": "Cloudian"
+  },
+  {
+    "id": "54",
+    "name": "Dé",
+    "nameEn": "Dice"
+  },
+  {
+    "id": "55",
+    "name": "Alien",
+    "nameEn": "Alien"
+  },
+  {
+    "id": "56",
+    "name": "Épée de Bamboo",
+    "nameEn": "Bamboo Sword"
+  },
+  {
+    "id": "57",
+    "name": "Héros de la Destinée",
+    "nameEn": "Destiny HERO"
+  },
+  {
+    "id": "58",
+    "name": "Bête gladiateur",
+    "nameEn": "Gladiator Beast"
+  },
+  {
+    "id": "59",
+    "name": "Bête cristalline",
+    "nameEn": "Crystal Beast"
+  },
+  {
+    "id": "60",
+    "name": "Volcanique",
+    "nameEn": "Volcanic"
+  },
+  {
+    "id": "61",
+    "name": "Simurgh",
+    "nameEn": "Simorgh"
+  },
+  {
+    "id": "62",
+    "name": "Crâne serviteur",
+    "nameEn": "Skull Servant"
+  }
+]

@@ -1,6 +1,6 @@
 {
-  "version": "0.0.11",
-  "lastUpdated": "2025-07-28T09:21:57Z",
+  "version": "0.0.12",
+  "lastUpdated": "2025-07-30T08:21:52Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -19,7 +19,7 @@
         },
         {
           "file": "cards/mdr.json",
-          "date": "2025-07-28T10:00:00Z"
+          "date": "2025-07-28T09:00:00Z"
         },
         {
           "file": "cards/mdm.json",
@@ -32,6 +32,10 @@
         {
           "file": "cards/ct11.json",
           "date": "2025-07-28T09:21:57Z"
+        },
+        {
+          "file": "cards/lodt.json",
+          "date": "2025-07-30T08:21:52Z"
         }
       ]
     },
@@ -48,7 +52,7 @@
         },
         {
           "file": "collections/mdr.json",
-          "date": "2025-07-28T10:00:00Z"
+          "date": "2025-07-28T09:00:00Z"
         },
         {
           "file": "collections/mdm.json",
@@ -61,6 +65,10 @@
         {
           "file": "collections/ct11.json",
           "date": "2025-07-28T09:21:57Z"
+        },
+        {
+          "file": "collections/lodt.json",
+          "date": "2025-07-30T08:21:52Z"
         }
       ]
     },
@@ -81,7 +89,7 @@
         },
         {
           "file": "collection-cards/mdr.json",
-          "date": "2025-07-28T10:00:00Z"
+          "date": "2025-07-28T09:00:00Z"
         },
         {
           "file": "collection-cards/mdm.json",
@@ -94,6 +102,10 @@
         {
           "file": "collection-cards/ct11.json",
           "date": "2025-07-28T09:21:57Z"
+        },
+        {
+          "file": "collection-cards/lodt.json",
+          "date": "2025-07-30T08:21:52Z"
         }
       ]
     },
@@ -123,6 +135,10 @@
         {
           "file": "archetypes/ct11.json",
           "date": "2025-07-28T09:21:57Z"
+        },
+        {
+          "file": "archetypes/lodt.json",
+          "date": "2025-07-30T08:21:52Z"
         }
       ]
     }

@@ -1,11 +1,5 @@
 [
-  {
-    "id": "ct11",
-    "name": "2014 Mega-Tins",
-    "nameEn": "2014 Mega-Tins",
-    "type": "tinbox",
-    "codePrefix": "CT11"
-  },{
+{
     "id": "lodt",
     "name": "Lumière de la destruction",
     "nameEn": "Light of Destruction",
