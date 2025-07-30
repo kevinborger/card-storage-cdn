@@ -1,0 +1,502 @@
+[
+  {
+    "id": "TDGS-FR043",
+    "cardId": "43385557",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR044",
+    "cardId": "70780151",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR018",
+    "cardId": "59575539",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR036",
+    "cardId": "18235577",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR033",
+    "cardId": "19357125",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR022",
+    "cardId": "84847656",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR078",
+    "cardId": "58873391",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR075",
+    "cardId": "22201234",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR061",
+    "cardId": "99995595",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR069",
+    "cardId": "60930169",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR074",
+    "cardId": "96216229",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR034",
+    "cardId": "45452224",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR037",
+    "cardId": "45620686",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR020",
+    "cardId": "21454943",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR080",
+    "cardId": "71272951",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR011",
+    "cardId": "24025620",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR019",
+    "cardId": "85060248",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR023",
+    "cardId": "11232355",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR049",
+    "cardId": "32441317",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR026",
+    "cardId": "19327348",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR010",
+    "cardId": "97021916",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR035",
+    "cardId": "82841979",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR017",
+    "cardId": "22171591",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR029",
+    "cardId": "70050374",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR014",
+    "cardId": "23303072",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR013",
+    "cardId": "97904474",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR040",
+    "cardId": "44508094",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR041",
+    "cardId": "70902743",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR046",
+    "cardId": "32663969",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR096",
+    "cardId": "24661486",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR009",
+    "cardId": "61632317",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR085",
+    "cardId": "78792195",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR054",
+    "cardId": "48716139",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR024",
+    "cardId": "57731460",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR045",
+    "cardId": "6178850",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR073",
+    "cardId": "59718521",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR060",
+    "cardId": "62991886",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR058",
+    "cardId": "19844995",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR001",
+    "cardId": "60187739",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR042",
+    "cardId": "7391448",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR004",
+    "cardId": "59965151",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR007",
+    "cardId": "58843503",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR008",
+    "cardId": "25247218",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR006",
+    "cardId": "22754505",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR015",
+    "cardId": "59797187",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR071",
+    "cardId": "21488686",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR005",
+    "cardId": "95360850",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR012",
+    "cardId": "60410769",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR039",
+    "cardId": "18013090",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR021",
+    "cardId": "58453942",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR082",
+    "cardId": "17266660",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR003",
+    "cardId": "23571046",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR052",
+    "cardId": "31328739",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR032",
+    "cardId": "83903521",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR076",
+    "cardId": "59695933",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR030",
+    "cardId": "6544078",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR083",
+    "cardId": "43543777",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR025",
+    "cardId": "83725008",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR077",
+    "cardId": "85080048",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR098",
+    "cardId": "37390589",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR031",
+    "cardId": "56514812",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR027",
+    "cardId": "10110717",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR090",
+    "cardId": "14778250",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR081",
+    "cardId": "5519829",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR062",
+    "cardId": "35480699",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR099",
+    "cardId": "58132856",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR091",
+    "cardId": "75622824",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR016",
+    "cardId": "96782886",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR097",
+    "cardId": "32750510",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR028",
+    "cardId": "83239739",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR056",
+    "cardId": "1200843",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR095",
+    "cardId": "82556058",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR038",
+    "cardId": "71628381",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR079",
+    "cardId": "84968490",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR002",
+    "cardId": "96182448",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR087",
+    "cardId": "32907538",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR055",
+    "cardId": "74115234",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR000",
+    "cardId": "69514125",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR092",
+    "cardId": "79766336",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR065",
+    "cardId": "24268052",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR067",
+    "cardId": "97151365",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR072",
+    "cardId": "23323812",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR059",
+    "cardId": "30502181",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR088",
+    "cardId": "68392533",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR068",
+    "cardId": "24545464",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR089",
+    "cardId": "94886282",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR086",
+    "cardId": "32393580",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR064",
+    "cardId": "98273947",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR047",
+    "cardId": "79068663",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR093",
+    "cardId": "30888983",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR051",
+    "cardId": "4230620",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR070",
+    "cardId": "82633308",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR048",
+    "cardId": "5052212",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR050",
+    "cardId": "78845026",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR053",
+    "cardId": "67723438",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR063",
+    "cardId": "62878208",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR066",
+    "cardId": "61656650",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR094",
+    "cardId": "5645210",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR084",
+    "cardId": "84055227",
+    "collectionId": "tdgs"
+  },
+  {
+    "id": "TDGS-FR057",
+    "cardId": "37694547",
+    "collectionId": "tdgs"
+  }
+]
