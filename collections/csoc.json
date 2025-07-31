@@ -1,9 +1,9 @@
 [
   {
     "id": "csoc",
-    "name": "Crossroads of Chaos",
+    "name": "La croisée du chaos",
     "nameEn": "Crossroads of Chaos",
-    "type": "",
+    "type": "booster",
     "codePrefix": "CSOC-FR"
   }
 ]

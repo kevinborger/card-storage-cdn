@@ -1,0 +1,9 @@
+[
+  {
+    "id": "ddk",
+    "name": "Deck de démarrage Kaiba",
+    "nameEn": "Starter Deck: Kaiba",
+    "type": "starter",
+    "codePrefix": "DDK-"
+  }
+]
