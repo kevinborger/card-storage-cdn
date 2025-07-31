@@ -1,6 +1,6 @@
 {
-  "version": "0.0.19",
-  "lastUpdated": "2025-07-31T12:31:16Z",
+  "version": "0.0.22",
+  "lastUpdated": "2025-07-31T21:55:43Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -64,6 +64,14 @@
         {
           "file": "cards/ddk.json",
           "date": "2025-07-31T12:31:16Z"
+        },
+        {
+          "file": "cards/ct07.json",
+          "date": "2025-07-31T21:48:27Z"
+        },
+        {
+          "file": "cards/sdcr.json",
+          "date": "2025-07-31T21:55:43Z"
         }
       ]
     },
@@ -125,6 +133,14 @@
         {
           "file": "collections/ddk.json",
           "date": "2025-07-31T12:31:16Z"
+        },
+        {
+          "file": "collections/ct07.json",
+          "date": "2025-07-31T21:48:27Z"
+        },
+        {
+          "file": "collections/sdcr.json",
+          "date": "2025-07-31T21:55:43Z"
         }
       ]
     },
@@ -190,6 +206,14 @@
         {
           "file": "collection-cards/ddk.json",
           "date": "2025-07-31T12:31:16Z"
+        },
+        {
+          "file": "collection-cards/ct07.json",
+          "date": "2025-07-31T21:48:27Z"
+        },
+        {
+          "file": "collection-cards/sdcr.json",
+          "date": "2025-07-31T21:55:43Z"
         }
       ]
     },
@@ -251,6 +275,14 @@
         {
           "file": "archetypes/ddk.json",
           "date": "2025-07-31T12:31:16Z"
+        },
+        {
+          "file": "archetypes/ct07.json",
+          "date": "2025-07-31T21:48:27Z"
+        },
+        {
+          "file": "archetypes/sdcr.json",
+          "date": "2025-07-31T21:55:43Z"
         }
       ]
     }
