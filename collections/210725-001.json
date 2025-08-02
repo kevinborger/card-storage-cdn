@@ -1,9 +1,10 @@
 [
   {
-    "id": "sdy",
+    "id": "ddy",
     "name": "Deck de démarrage Yugi",
-    "nameEn": "Start Deck Yugi",
+    "nameEn": "Starter Deck Yugi",
     "type": "starter",
-    "codePrefix": "SDY-"
+    "codePrefix": "DDY-",
+    "releaseDate": "2002‑03‑29"
   }
 ]

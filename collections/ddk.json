@@ -4,6 +4,7 @@
     "name": "Deck de démarrage Kaiba",
     "nameEn": "Starter Deck: Kaiba",
     "type": "starter",
-    "codePrefix": "DDK-"
+    "codePrefix": "DDK-",
+    "releaseDate": "2002‑03‑29"
   }
 ]
