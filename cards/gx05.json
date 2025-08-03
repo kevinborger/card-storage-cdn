@@ -1,0 +1,40 @@
+[
+  {
+    "id": "3701074",
+    "name": "Guérison Obscure",
+    "nameEn": "Dark Cure",
+    "description": "Lorsque votre adversaire Invoque un ou plusieurs monstres, il(s) gagne(nt) un nombre de Life Points égal à la moitié de l'ATK d'1 des monstres Invoqué de votre choix.",
+    "isEffect": false,
+    "attribute": "TRAP",
+    "type": "Trap",
+    "isPendulum": false,
+    "isLink": false
+  },
+  {
+    "id": "67316075",
+    "name": "Infirmière Réficule, Ange Déchue",
+    "nameEn": "Darklord Nurse Reficule",
+    "description": "Les effets qui vont faire gagner des LP à votre adversaire lui infligent des dommages du même montant à la place.",
+    "isEffect": true,
+    "attribute": "DARK",
+    "atk": 1400,
+    "def": 600,
+    "level": 4,
+    "monsterType": "Fairy",
+    "type": "Effect",
+    "isPendulum": false,
+    "isLink": false,
+    "archetype": "Darklord"
+  },
+  {
+    "id": "30155789",
+    "name": "Potion de Brutalité",
+    "nameEn": "Brutal Potion",
+    "description": "Cette carte devient une Carte Équipement et équipe 1 monstre que vous contrôlez. Une fois par tour, lorsque vous infligez des dommages à votre adversaire par l'effet d'une carte, augmentez l'ATK du monstre équipé de 1000 points jusqu'à la End Phase.",
+    "isEffect": false,
+    "attribute": "TRAP",
+    "type": "Trap",
+    "isPendulum": false,
+    "isLink": false
+  }
+]

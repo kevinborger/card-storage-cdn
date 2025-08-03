@@ -1,6 +1,6 @@
 {
-  "version": "0.0.27",
-  "lastUpdated": "2025-08-03T00:46:36Z",
+  "version": "0.0.28",
+  "lastUpdated": "2025-08-03T22:19:15Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -88,6 +88,10 @@
         {
           "file": "cards/rgbt.json",
           "date": "2025-08-03T00:46:36Z"
+        },
+        {
+          "file": "cards/gx05.json",
+          "date": "2025-08-03T22:19:15Z"
         }
       ]
     },
@@ -173,6 +177,10 @@
         {
           "file": "collections/rgbt.json",
           "date": "2025-08-03T00:46:36Z"
+        },
+        {
+          "file": "collections/gx05.json",
+          "date": "2025-08-03T22:19:15Z"
         }
       ]
     },
@@ -262,6 +270,10 @@
         {
           "file": "collection-cards/rgbt.json",
           "date": "2025-08-03T00:46:36Z"
+        },
+        {
+          "file": "collection-cards/gx05.json",
+          "date": "2025-08-03T22:19:15Z"
         }
       ]
     },
@@ -335,6 +347,10 @@
         {
           "file": "archetypes/rgbt.json",
           "date": "2025-08-03T00:46:36Z"
+        },
+        {
+          "file": "archetypes/gx05.json",
+          "date": "2025-08-03T22:19:15Z"
         }
       ]
     }
