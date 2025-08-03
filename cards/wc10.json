@@ -1,0 +1,47 @@
+[
+  {
+    "id": "50732780",
+    "name": "Garde Stygien",
+    "nameEn": "Stygian Security",
+    "description": "Si cette carte est détruite au combat et envoyée au Cimetière : Invoquez Spécialement 1 monstre de Type Démon de Niveau 1 depuis votre Deck.",
+    "isEffect": true,
+    "attribute": "DARK",
+    "atk": 100,
+    "def": 600,
+    "level": 1,
+    "monsterType": "Fiend",
+    "type": "Effect",
+    "isPendulum": false,
+    "isLink": false
+  },
+  {
+    "id": "14344682",
+    "name": "Maître Samouraï des Katanas",
+    "nameEn": "Samurai Sword Baron",
+    "description": "Une fois par tour, vous pouvez sélectionner 1 monstre en Position de Défense contrôlé par votre adversaire. Changez-le en Position d'Attaque face recto.",
+    "isEffect": true,
+    "attribute": "EARTH",
+    "atk": 1600,
+    "def": 1200,
+    "level": 4,
+    "monsterType": "Warrior",
+    "type": "Effect",
+    "isPendulum": false,
+    "isLink": false
+  },
+  {
+    "id": "86137485",
+    "name": "Sergent Stygien",
+    "nameEn": "Stygian Sergeants",
+    "description": "1 Syntoniseur de Type Démon + 1 monstre non-Syntoniseur ou plus\nLorsque cette carte détruit un monstre de votre adversaire au combat et l'envoie au Cimetière : jusqu'à la fin de la Battle Phase, vous pouvez augmenter l'ATK de cette carte de 800, et aussi, cette carte peut attaquer une seconde fois à la suite.",
+    "isEffect": true,
+    "attribute": "DARK",
+    "atk": 2200,
+    "def": 1800,
+    "level": 5,
+    "monsterType": "Fiend",
+    "type": "Synchro",
+    "isPendulum": false,
+    "isLink": false
+  }
+]
