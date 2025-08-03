@@ -1,6 +1,6 @@
 {
-  "version": "0.0.29",
-  "lastUpdated": "2025-08-03T22:27:57Z",
+  "version": "0.0.30",
+  "lastUpdated": "2025-08-03T22:45:58Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -96,6 +96,10 @@
         {
           "file": "cards/sd6.json",
           "date": "2025-08-03T22:27:57Z"
+        },
+        {
+          "file": "cards/ske.json",
+          "date": "2025-08-03T22:45:58Z"
         }
       ]
     },
@@ -189,6 +193,10 @@
         {
           "file": "collections/sd6.json",
           "date": "2025-08-03T22:27:57Z"
+        },
+        {
+          "file": "collections/ske.json",
+          "date": "2025-08-03T22:45:58Z"
         }
       ]
     },
@@ -286,6 +294,10 @@
         {
           "file": "collection-cards/sd6.json",
           "date": "2025-08-03T22:27:57Z"
+        },
+        {
+          "file": "collection-cards/ske.json",
+          "date": "2025-08-03T22:45:58Z"
         }
       ]
     },
