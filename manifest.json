@@ -1,6 +1,6 @@
 {
-  "version": "0.0.26",
-  "lastUpdated": "2025-08-03T00:40:58Z",
+  "version": "0.0.27",
+  "lastUpdated": "2025-08-03T00:46:36Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -84,6 +84,10 @@
         {
           "file": "cards/wc10.json",
           "date": "2025-08-03T00:40:58Z"
+        },
+        {
+          "file": "cards/rgbt.json",
+          "date": "2025-08-03T00:46:36Z"
         }
       ]
     },
@@ -165,6 +169,10 @@
         {
           "file": "collections/wc10.json",
           "date": "2025-08-03T00:40:58Z"
+        },
+        {
+          "file": "collections/rgbt.json",
+          "date": "2025-08-03T00:46:36Z"
         }
       ]
     },
@@ -250,6 +258,10 @@
         {
           "file": "collection-cards/wc10.json",
           "date": "2025-08-03T00:40:58Z"
+        },
+        {
+          "file": "collection-cards/rgbt.json",
+          "date": "2025-08-03T00:46:36Z"
         }
       ]
     },
@@ -319,6 +331,10 @@
         {
           "file": "archetypes/sdcr.json",
           "date": "2025-07-31T21:55:43Z"
+        },
+        {
+          "file": "archetypes/rgbt.json",
+          "date": "2025-08-03T00:46:36Z"
         }
       ]
     }
