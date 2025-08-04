@@ -1,6 +1,6 @@
 {
-  "version": "0.0.30",
-  "lastUpdated": "2025-08-03T22:45:58Z",
+  "version": "0.0.31",
+  "lastUpdated": "2025-08-04T10:51:46Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -100,6 +100,10 @@
         {
           "file": "cards/ske.json",
           "date": "2025-08-03T22:45:58Z"
+        },
+        {
+          "file": "cards/dpyg.json",
+          "date": "2025-08-04T10:51:46Z"
         }
       ]
     },
@@ -197,6 +201,10 @@
         {
           "file": "collections/ske.json",
           "date": "2025-08-03T22:45:58Z"
+        },
+        {
+          "file": "collections/dpyg.json",
+          "date": "2025-08-04T10:51:46Z"
         }
       ]
     },
@@ -298,6 +306,10 @@
         {
           "file": "collection-cards/ske.json",
           "date": "2025-08-03T22:45:58Z"
+        },
+        {
+          "file": "collection-cards/dpyg.json",
+          "date": "2025-08-04T10:51:46Z"
         }
       ]
     },
@@ -375,6 +387,10 @@
         {
           "file": "archetypes/gx05.json",
           "date": "2025-08-03T22:19:15Z"
+        },
+        {
+          "file": "archetypes/dpyg.json",
+          "date": "2025-08-04T10:51:46Z"
         }
       ]
     }
