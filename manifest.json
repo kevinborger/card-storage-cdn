@@ -1,6 +1,6 @@
 {
-  "version": "0.0.33",
-  "lastUpdated": "2025-08-04T12:55:53Z",
+  "version": "0.0.34",
+  "lastUpdated": "2025-08-04T13:23:26Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -112,6 +112,10 @@
         {
           "file": "cards/op26.json",
           "date": "2025-08-04T12:55:53Z"
+        },
+        {
+          "file": "cards/duad.json",
+          "date": "2025-08-04T13:23:26Z"
         }
       ]
     },
@@ -221,6 +225,10 @@
         {
           "file": "collections/op26.json",
           "date": "2025-08-04T12:55:53Z"
+        },
+        {
+          "file": "collections/duad.json",
+          "date": "2025-08-04T13:23:26Z"
         }
       ]
     },
@@ -334,6 +342,10 @@
         {
           "file": "collection-cards/op26.json",
           "date": "2025-08-04T12:55:53Z"
+        },
+        {
+          "file": "collection-cards/duad.json",
+          "date": "2025-08-04T13:23:26Z"
         }
       ]
     },
@@ -423,6 +435,10 @@
         {
           "file": "archetypes/op26.json",
           "date": "2025-08-04T12:55:53Z"
+        },
+        {
+          "file": "archetypes/duad.json",
+          "date": "2025-08-04T13:23:26Z"
         }
       ]
     }
