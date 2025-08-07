@@ -1,6 +1,6 @@
 {
-  "version": "0.0.36",
-  "lastUpdated": "2025-08-07T11:23:33Z",
+  "version": "0.0.37",
+  "lastUpdated": "2025-08-07T11:34:02Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -124,6 +124,10 @@
         {
           "file": "cards/sdp.json",
           "date": "2025-08-07T11:23:33Z"
+        },
+        {
+          "file": "cards/jotl.json",
+          "date": "2025-08-07T11:34:02Z"
         }
       ]
     },
@@ -245,6 +249,10 @@
         {
           "file": "collections/sdp.json",
           "date": "2025-08-07T11:23:33Z"
+        },
+        {
+          "file": "collections/jotl.json",
+          "date": "2025-08-07T11:34:02Z"
         }
       ]
     },
@@ -370,6 +378,10 @@
         {
           "file": "collection-cards/sdp.json",
           "date": "2025-08-07T11:23:33Z"
+        },
+        {
+          "file": "collection-cards/jotl.json",
+          "date": "2025-08-07T11:34:02Z"
         }
       ]
     },
@@ -471,6 +483,10 @@
         {
           "file": "archetypes/sdp.json",
           "date": "2025-08-07T11:23:33Z"
+        },
+        {
+          "file": "archetypes/jotl.json",
+          "date": "2025-08-07T11:34:02Z"
         }
       ]
     }

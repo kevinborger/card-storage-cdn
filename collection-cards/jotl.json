@@ -1,0 +1,502 @@
+[
+  {
+    "id": "JOTL-FR069",
+    "cardId": "68661341",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR087",
+    "cardId": "42216237",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR096",
+    "cardId": "62023839",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR045",
+    "cardId": "88033975",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR064",
+    "cardId": "904185",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR095",
+    "cardId": "66413481",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR044",
+    "cardId": "52639377",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR092",
+    "cardId": "67136033",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR082",
+    "cardId": "16943770",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR024",
+    "cardId": "94973028",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR041",
+    "cardId": "53451824",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR022",
+    "cardId": "31480215",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR025",
+    "cardId": "20368763",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR023",
+    "cardId": "67489919",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR016",
+    "cardId": "32339440",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR063",
+    "cardId": "73906480",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR075",
+    "cardId": "66727115",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR020",
+    "cardId": "68601507",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR019",
+    "cardId": "32202803",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR021",
+    "cardId": "94096616",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR017",
+    "cardId": "69723159",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR018",
+    "cardId": "5818294",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR081",
+    "cardId": "80555062",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR057",
+    "cardId": "75840616",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR085",
+    "cardId": "89732524",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR038",
+    "cardId": "53573406",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR039",
+    "cardId": "80978111",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR030",
+    "cardId": "92039899",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR049",
+    "cardId": "14306092",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR061",
+    "cardId": "1127737",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR043",
+    "cardId": "15240238",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR072",
+    "cardId": "67949763",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR083",
+    "cardId": "42338879",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR027",
+    "cardId": "93751476",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR094",
+    "cardId": "30929786",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR042",
+    "cardId": "89856523",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR026",
+    "cardId": "66762372",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR086",
+    "cardId": "15721123",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR037",
+    "cardId": "27189308",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR080",
+    "cardId": "28493337",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR015",
+    "cardId": "6930746",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR051",
+    "cardId": "77799846",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR084",
+    "cardId": "53550467",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR001",
+    "cardId": "6330307",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR009",
+    "cardId": "8875971",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR031",
+    "cardId": "28423537",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR088",
+    "cardId": "78610936",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR011",
+    "cardId": "70668285",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR091",
+    "cardId": "51855378",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR005",
+    "cardId": "72502414",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR014",
+    "cardId": "70546737",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR059",
+    "cardId": "48333324",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR065",
+    "cardId": "36499284",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR079",
+    "cardId": "92099232",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR097",
+    "cardId": "97396380",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR050",
+    "cardId": "40390147",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR012",
+    "cardId": "7152333",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR076",
+    "cardId": "93211810",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR058",
+    "cardId": "1249315",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR029",
+    "cardId": "66540884",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR013",
+    "cardId": "33551032",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR003",
+    "cardId": "19113101",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR098",
+    "cardId": "24384095",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR090",
+    "cardId": "14466224",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR035",
+    "cardId": "54706054",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR070",
+    "cardId": "94156050",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR047",
+    "cardId": "41517789",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR028",
+    "cardId": "29146185",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR053",
+    "cardId": "49678559",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR055",
+    "cardId": "2061963",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR054",
+    "cardId": "76067258",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR056",
+    "cardId": "49456901",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR048",
+    "cardId": "87911394",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR066",
+    "cardId": "63883999",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR074",
+    "cardId": "30338466",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR062",
+    "cardId": "37511832",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR040",
+    "cardId": "16366810",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR099",
+    "cardId": "26570480",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR060",
+    "cardId": "74728028",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR004",
+    "cardId": "45118716",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR078",
+    "cardId": "66604523",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR071",
+    "cardId": "31554054",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR089",
+    "cardId": "14005031",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR010",
+    "cardId": "44273680",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR002",
+    "cardId": "33725002",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR000",
+    "cardId": "11066358",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR046",
+    "cardId": "15028680",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR007",
+    "cardId": "45496268",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR006",
+    "cardId": "8091563",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR008",
+    "cardId": "71880877",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR036",
+    "cardId": "80190753",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR073",
+    "cardId": "94933468",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR067",
+    "cardId": "5288597",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR077",
+    "cardId": "29616929",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR032",
+    "cardId": "55428242",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR033",
+    "cardId": "91812341",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR034",
+    "cardId": "28201945",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR068",
+    "cardId": "31677606",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR093",
+    "cardId": "3534077",
+    "collectionId": "jotl"
+  },
+  {
+    "id": "JOTL-FR052",
+    "cardId": "13183454",
+    "collectionId": "jotl"
+  }
+]
