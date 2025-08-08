@@ -1,6 +1,6 @@
 {
-  "version": "0.0.37",
-  "lastUpdated": "2025-08-07T11:34:02Z",
+  "version": "0.0.38",
+  "lastUpdated": "2025-08-07T11:53:39Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -128,6 +128,10 @@
         {
           "file": "cards/jotl.json",
           "date": "2025-08-07T11:34:02Z"
+        },
+        {
+          "file": "cards/maze.json",
+          "date": "2025-08-07T11:53:39Z"
         }
       ]
     },
@@ -253,6 +257,10 @@
         {
           "file": "collections/jotl.json",
           "date": "2025-08-07T11:34:02Z"
+        },
+        {
+          "file": "collections/maze.json",
+          "date": "2025-08-07T11:53:39Z"
         }
       ]
     },
@@ -382,6 +390,10 @@
         {
           "file": "collection-cards/jotl.json",
           "date": "2025-08-07T11:34:02Z"
+        },
+        {
+          "file": "collection-cards/maze.json",
+          "date": "2025-08-07T11:53:39Z"
         }
       ]
     },
@@ -487,6 +499,10 @@
         {
           "file": "archetypes/jotl.json",
           "date": "2025-08-07T11:34:02Z"
+        },
+        {
+          "file": "archetypes/maze.json",
+          "date": "2025-08-07T11:53:39Z"
         }
       ]
     }
