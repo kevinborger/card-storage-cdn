@@ -1,0 +1,18 @@
+[
+  {
+    "id": "46986421",
+    "name": "Magicien Sombre",
+    "nameEn": "Magicien Sombre",
+    "attribute": "DARK",
+    "atk": 2500,
+    "def": 2100,
+    "level": 7,
+    "monsterType": "Spellcaster",
+    "type": "Normal",
+    "isEffect": false,
+    "isPendulum": false,
+    "isLink": false,
+    "description": "Mage suprême en termes d'attaque et de défense.",
+    "archetype": "Dark Magician"
+  }
+]

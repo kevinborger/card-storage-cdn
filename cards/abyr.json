@@ -1,0 +1,33 @@
+[
+  {
+    "id": "41930553",
+    "name": "Brouillard des Ténèbres",
+    "nameEn": "Brouillard des Ténèbres",
+    "attribute": null,
+    "atk": null,
+    "def": null,
+    "level": null,
+    "monsterType": "Continuous",
+    "type": "Trap",
+    "isEffect": false,
+    "isPendulum": false,
+    "isLink": false,
+    "description": "Une fois par tour : vous pouvez cibler 1 monstre dans le Cimetière de votre adversaire ; défaussez 1 monstre Démon, et si vous le faites, bannissez la cible."
+  },
+  {
+    "id": "3606728",
+    "name": "Fille Gagaga",
+    "nameEn": "Fille Gagaga",
+    "attribute": "DARK",
+    "atk": 1000,
+    "def": 800,
+    "level": 3,
+    "monsterType": "Spellcaster",
+    "type": "Effect",
+    "isEffect": true,
+    "isPendulum": false,
+    "isLink": false,
+    "description": "Vous pouvez cibler 1 \"Magicien Gagaga\" que vous contrôlez ; le Niveau de cette carte devient le Niveau du monstre. Un Monstre Xyz Invoqué en utilisant uniquement cette carte et d'autres monstres \"Gagaga\" comme Matériel Xyz gagne cet effet.\n ●Lorsqu'il est Invoqué par Xyz : vous pouvez cibler 1 monstre Invoqué Spécialement contrôlé par votre adversaire ; son ATK devient 0.",
+    "archetype": "Gagaga"
+  }
+]

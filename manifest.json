@@ -1,6 +1,6 @@
 {
-  "version": "0.0.57",
-  "lastUpdated": "2025-09-15T17:19:36.299691Z",
+  "version": "0.0.58",
+  "lastUpdated": "2025-09-15T17:35:40.942465Z",
   "data": {
     "cards": {
       "baseFile": "cards/base.json",
@@ -168,6 +168,178 @@
         {
           "file": "cards/ct12.json",
           "date": "2025-09-15T17:19:36.299691Z"
+        },
+        {
+          "file": "cards/mp16.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ct13.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp17.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ct14.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp18.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ct15.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/tn19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp20.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp21.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp22.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ra01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ra02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/tn23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/mp24.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/kc01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/abpf.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/abyr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/adc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/dem4.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/agov.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/alin.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/amde.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/angu.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/anpr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ast.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/yap1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap08.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap05.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap04.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap07.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap06.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/ap02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/bach.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/bp02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/bp03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/batt.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/bp01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/blar.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "cards/blc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
         }
       ]
     },
@@ -333,6 +505,178 @@
         {
           "file": "collections/ct12.json",
           "date": "2025-09-15T17:19:36.299691Z"
+        },
+        {
+          "file": "collections/mp16.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ct13.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp17.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ct14.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp18.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ct15.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/tn19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp20.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp21.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp22.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ra01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ra02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/tn23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/mp24.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/kc01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/abpf.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/abyr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/adc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/dem4.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/agov.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/alin.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/amde.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/angu.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/anpr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ast.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/yap1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap08.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap05.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap04.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap07.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap06.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/ap02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/bach.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/bp02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/bp03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/batt.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/bp01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/blar.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collections/blc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
         }
       ]
     },
@@ -502,6 +846,178 @@
         {
           "file": "collection-cards/ct12.json",
           "date": "2025-09-15T17:19:36.299691Z"
+        },
+        {
+          "file": "collection-cards/mp16.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ct13.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp17.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ct14.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp18.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ct15.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/tn19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp20.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp21.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp22.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ra01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ra02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/tn23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/mp24.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/kc01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/abpf.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/abyr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/adc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/dem4.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/agov.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/alin.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/amde.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/angu.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/anpr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ast.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/yap1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap08.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap05.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap04.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap07.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap06.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/ap02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/bach.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/bp02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/bp03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/batt.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/bp01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/blar.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "collection-cards/blc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
         }
       ]
     },
@@ -643,6 +1159,178 @@
         {
           "file": "archetypes/ct12.json",
           "date": "2025-09-15T17:19:36.299691Z"
+        },
+        {
+          "file": "archetypes/mp16.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ct13.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp17.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ct14.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp18.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ct15.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/tn19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp19.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp20.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp21.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp22.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ra01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ra02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/tn23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp23.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/mp24.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/kc01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/abpf.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/abyr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/adc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/dem4.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/agov.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/alin.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/amde.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/angu.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/anpr.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ast.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/yap1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap08.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap05.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap04.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap07.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap06.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/ap02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/bach.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/bp02.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/bp03.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/batt.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/bp01.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/blar.json",
+          "date": "2025-09-15T17:35:40.942465Z"
+        },
+        {
+          "file": "archetypes/blc1.json",
+          "date": "2025-09-15T17:35:40.942465Z"
         }
       ]
     }

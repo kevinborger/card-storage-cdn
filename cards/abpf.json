@@ -1,0 +1,33 @@
+[
+  {
+    "id": "15341821",
+    "name": "Dandelion",
+    "nameEn": "Dandelion",
+    "attribute": "EARTH",
+    "atk": 300,
+    "def": 300,
+    "level": 3,
+    "monsterType": "Plant",
+    "type": "Effect",
+    "isEffect": true,
+    "isPendulum": false,
+    "isLink": false,
+    "description": "Si cette carte est envoyée au Cimetière : Invoquez Spécialement 2 \"Jeton Fluffy\" (Type Plante/VENT/Niveau 1/ATK 0/DEF 0) en Position de Défense. Ces Jetons ne peuvent pas être Sacrifiés pour une Invocation Sacrifice durant le tour où ils ont été Invoqués Spécialement."
+  },
+  {
+    "id": "88264978",
+    "name": "Dragon Sombre Métallique aux Yeux Rouges",
+    "nameEn": "Dragon Sombre Métallique aux Yeux Rouges",
+    "attribute": "DARK",
+    "atk": 2800,
+    "def": 2400,
+    "level": 10,
+    "monsterType": "Dragon",
+    "type": "Effect",
+    "isEffect": true,
+    "isPendulum": false,
+    "isLink": false,
+    "description": "Vous pouvez Invoquer Spécialement cette carte (depuis votre main) en bannissant 1 monstre Dragon face recto que vous contrôlez. Vous ne pouvez Invoquer Spécialement \"Dragon Sombre Métallique aux Yeux Rouges\" qu'une fois par tour de cette façon. Durant votre Main Phase : vous pouvez Invoquer Spécialement 1 monstre Dragon (\"Dragon Sombre Métallique aux Yeux Rouges\" exclu) depuis votre main ou Cimetière. Vous ne pouvez utiliser cet effet de \"Dragon Sombre Métallique aux Yeux Rouges\" qu'une fois par tour.",
+    "archetype": "Red-Eyes"
+  }
+]

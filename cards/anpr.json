@@ -1,0 +1,34 @@
+[
+  {
+    "id": "691925",
+    "name": "Échange Solaire",
+    "nameEn": "Échange Solaire",
+    "attribute": null,
+    "atk": null,
+    "def": null,
+    "level": null,
+    "monsterType": "Normal",
+    "type": "Spell",
+    "isEffect": false,
+    "isPendulum": false,
+    "isLink": false,
+    "description": "Défaussez 1 monstre \"Seigneur Lumière\" ; piochez 2 cartes, puis envoyez les 2 cartes du dessus de votre Deck au Cimetière.",
+    "archetype": "Lightsworn"
+  },
+  {
+    "id": "67300516",
+    "name": "Vouivre aux Yeux Rouges",
+    "nameEn": "Vouivre aux Yeux Rouges",
+    "attribute": "WIND",
+    "atk": 1800,
+    "def": 1600,
+    "level": 4,
+    "monsterType": "Dragon",
+    "type": "Effect",
+    "isEffect": true,
+    "isPendulum": false,
+    "isLink": false,
+    "description": "Une fois par tour, durant votre End Phase : vous pouvez bannir cette carte depuis votre Cimetière, puis ciblez 1 monstre \"Yeux Rouges\" dans votre Cimetière ; Invoquez Spécialement la cible. Vous ne pouvez pas Invoquer/Poser Normalement durant le tour où vous activez cet effet.",
+    "archetype": "Red-Eyes"
+  }
+]
