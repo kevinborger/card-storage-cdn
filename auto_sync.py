@@ -514,12 +514,14 @@ class YuGiOhAutoSync:
         file_code = set_code.lower()
         print(f"Processing new set: {set_code} (dry_run={dry_run})")
         
+        archetype_created = False
+        
         try:
             # Utiliser set_name pour l'API
             cards = self.fetch_cards_for_set(set_name)
             if not cards:
                 print(f"No cards found for set {set_name}")
-                return False
+                return False, archetype_created
             
             # Download collection image if available (seulement si pas dry_run)
             if not dry_run and 'set_image' in set_data and set_data['set_image'].strip():
@@ -540,8 +542,10 @@ class YuGiOhAutoSync:
                     with open(archetype_filename, 'w', encoding='utf-8') as f:
                         json.dump(archetype_data, f, ensure_ascii=False, indent=2)
                     print(f"Saved archetype data: {archetype_filename} with new archetypes: {unique_archetypes}")
+                    archetype_created = True
                 else:
                     print(f"[DRY RUN] Would save archetype data: {archetype_filename} with new archetypes: {unique_archetypes}")
+                    archetype_created = True  # Pour le dry run aussi
             else:
                 print(f"No new archetypes found for {set_code}, skipping archetype file creation")
             
@@ -593,12 +597,10 @@ class YuGiOhAutoSync:
             return True
             
         except Exception as e:
-            print(f"❌ Erreur lors du traitement du set {set_name}: {str(e)}")
-            import traceback
-            traceback.print_exc()
-            return False
+            print(f"Error processing set {set_code}: {str(e)}")
+            return False, archetype_created
     
-    def update_manifest(self, new_sets_processed=None):
+    def update_manifest(self, new_sets_processed=None, sets_with_archetypes=None):
         """Met à jour le fichier manifest.json avec les nouveaux sets"""
         manifest_path = "manifest.json"
         
@@ -699,13 +701,14 @@ class YuGiOhAutoSync:
                     if collection_cards_update not in manifest["data"]["collectionCards"]["updates"]:
                         manifest["data"]["collectionCards"]["updates"].append(collection_cards_update)
                     
-                    # Ajouter aux archetypes
-                    archetypes_update = {
-                        "file": f"archetypes/{set_code}.json",
-                        "date": current_time
-                    }
-                    if archetypes_update not in manifest["data"]["archetypes"]["updates"]:
-                        manifest["data"]["archetypes"]["updates"].append(archetypes_update)
+                    # Ajouter aux archetypes SEULEMENT si le set a des archetypes
+                    if sets_with_archetypes and set_code in sets_with_archetypes:
+                        archetypes_update = {
+                            "file": f"archetypes/{set_code}.json",
+                            "date": current_time
+                        }
+                        if archetypes_update not in manifest["data"]["archetypes"]["updates"]:
+                            manifest["data"]["archetypes"]["updates"].append(archetypes_update)
             
             # Sauvegarder
             with open(manifest_path, 'w', encoding='utf-8') as file:
@@ -755,15 +758,18 @@ class YuGiOhAutoSync:
             
             # Traiter chaque nouveau set
             processed_sets = []
+            sets_with_archetypes = []
             for i, new_set in enumerate(new_sets, 1):
                 # Accéder aux données correctement depuis la structure retournée par compare_sets
                 api_data = new_set['api_data']
                 set_name = api_data.get('set_name', 'Unknown Set')
                 set_code = api_data.get('set_code', new_set['suggested_code'])
                 
-                
-                if self.process_new_set(api_data, dry_run):
+                success, has_archetypes = self.process_new_set(api_data, dry_run)
+                if success:
                     processed_sets.append(set_code.lower())
+                    if has_archetypes:
+                        sets_with_archetypes.append(set_code.lower())
                 
                 # Pause entre les sets pour éviter de surcharger l'API
                 if i < len(new_sets):
@@ -771,7 +777,7 @@ class YuGiOhAutoSync:
             
             if not dry_run and processed_sets:
                 # Mettre à jour le manifest
-                self.update_manifest(processed_sets)
+                self.update_manifest(processed_sets, sets_with_archetypes)
             
             if dry_run:
                 print(f"\n🔍 DRY-RUN TERMINÉ:")
